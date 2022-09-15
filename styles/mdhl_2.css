@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:#f2f2f2;
+    background-color:#ffffff;
 }
 
 .container_header{
@@ -32,7 +32,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #4472c4;
-    width: calc(30% - 1rem);
+    width: calc(30% - 0.5rem);
     height: 2rem;
     border: 1px solid;
     border-color: black;
@@ -43,10 +43,6 @@ body{
 
 .nav_list__item.button{
     background-color: #70ad47;
-}
-
-.nav_list__item.button:hover{
-    cursor: pointer;
 }
 
 .nav_list__item a{
@@ -65,7 +61,7 @@ body{
 }
 
 .title_main{
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     width: 100%;
     height: 2.5rem;
     text-align: center;
@@ -97,11 +93,11 @@ body{
     margin-bottom: 1rem;
 }
 
-.container_list__item h3{
+.container_list__item > h3{
     font-style: italic;
 }
 
-.container_list__item p{
+.container_list__item > p{
     text-indent: 1rem;
     padding-right: 4rem;
 }
@@ -110,6 +106,6 @@ body{
     margin-top: 0.5rem;
 }
 
-.contacto p{
+.contacto > p{
     margin-bottom: 1rem;
 }
